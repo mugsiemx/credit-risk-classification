@@ -1,7 +1,7 @@
 # credit-risk-classification
 Module 20 Challenge - DUE May 17, 2023
 
-    ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/pexels-anna-nekrashevich-6802045.jpg)
+   ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/pexels-anna-nekrashevich-6802045.jpg)
 
 Business losses are common and each business needs to have tools to help predict what the customers need and want yet protect their own resources in the process. Today's assignment utlizes a dataset about loans which are healthy or high risk.  Our goal is to find a model to make these predictions.
 
@@ -18,7 +18,7 @@ The Credit Risk Classification Analysis report contains detail about how we orga
 
 ## machine learning from freeCodeCamp.org
 - https://www.youtube.com/watch?v=i_LwzRVP7bg
-code ideas and some code will be the same as this was assignment is expected to be my go to for example code when needed
+code ideas and some code will be the same as this assignment is expected to be my 'go to' for example code when needed
 
 ## documentation on supervised learning
 -https://scikit-learn.org/stable/tutorial/statistical_inference/supervised_learning.html
