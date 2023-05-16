@@ -15,8 +15,6 @@ The financial information used was a dataset that contained the amount of the lo
 The variables used in the prediction is the dependant variable (y) loan status and the independant variables (x) are the loan size, interest rate, borrower's income, borrower's debt to income ratio, number of accounts open, negative remarks on their credit history, and total debt at time of loan.
 
 In the machine learning process we read in the dataset from a csv file and split it into training and test data. We defined the x and y values and scaled those values to prevent skewed calculations. We then created the models listed above for both the original dataset and a random oversampled dataset. This was the training phase to make predictions. Finally, we evaluate the model's performance by creating reports and analyzing the results.
-
-
 ## Results
 
 * K-Nearest Neighbors (kNN) Model 
@@ -79,11 +77,6 @@ In the machine learning process we read in the dataset from a csv file and split
       ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/svm%20ros%20true.png)
 
 
-
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+The results for the original assignment led us down the path that either the logistic regression model with or without the random oversampling worked out the same. Our main goal is to predict both healthy and high risk loans. All of the models used predict healthy loans with 99% to 100% accuracy. High risk loans have a higher variance where a strong recall score (prediction if a loan is high risk) is high or the precision is high. Ideally we want to see both scores high. We find in these models where K-Nearest Neighbors Algorithm (kNN), Naive Bayes Algorithm, Logistic Regression Algorithm, and Support Vector Machines (SVM) Algorithm with or without random sampling support the businesses goals of predicting loans accurately with strong predictions regarding precision, recall, and the f1-score. We would recommend any of these models except the K-Nearest Neighbors with 1 nearest neighbor with or without oversampling. While the precision is high at 98%, predicting if a loan is high risk (recall at 86%) is low.
