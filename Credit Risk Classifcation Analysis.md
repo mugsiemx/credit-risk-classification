@@ -20,61 +20,61 @@ In the machine learning process we read in the dataset from a csv file and split
 ## Results
 
 * K-Nearest Neighbors (kNN) Model 
-  - Parameters: n_neighbors = 1, no oversampling
+    - Parameters: n_neighbors = 1, no oversampling
 
       ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/kNN%20nn%201%20ros%20false.png)
 
 
 * K-Nearest Neighbors (kNN) Model 
-  - Parameters: n_neighbors = 1, with oversampling
+    - Parameters: n_neighbors = 1, with oversampling
 
       ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/kNN%20nn%201%20ros%20true.png)
 
 
 * K-Nearest Neighbors (kNN) Model 
-  - Parameters: n_neighbors = 5, no oversampling
+    - Parameters: n_neighbors = 5, no oversampling
 
       ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/kNN%20nn%205%20ros%20false.png)
 
 
 * K-Nearest Neighbors (kNN) Model 
-  - Parameters: n_neighbors = 5, with oversampling
+    - Parameters: n_neighbors = 5, with oversampling
 
       ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/kNN%20nn%205%20ros%20true.png)
 
 
 *  Naive Bayes Model 
-  - Parameters: no oversampling
+    - Parameters: no oversampling
 
       ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/naive%20bayes%20ros%20false.png)
 
 
 *  Naive Bayes Model 
-  - Parameters: with oversampling
+    - Parameters: with oversampling
 
       ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/naive%20bayes%20ros%20true.png)
 
 
 *  Logistic Regression Model 
-  - Parameters: no oversampling
+    - Parameters: no oversampling
 
       ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/lr%20ros%20false.png)
 
 
 *  Logistic Regression Model 
-  - Parameters: with oversampling
+    - Parameters: with oversampling
 
       ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/lr%20ros%20true.png)
 
 
 *  Support Vector Machines (SVM) Model 
-  - Parameters: no oversampling
+    - Parameters: no oversampling
 
       ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/svm%20ros%20false.png)
 
 
 *  Support Vector Machines (SVM) Model 
-  - Parameters: with oversampling
+    - Parameters: with oversampling
 
       ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/svm%20ros%20true.png)
 
