@@ -1,26 +1,84 @@
-# Module 12 Report Template
+# Module 20 Report
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+In the credit risk classification analysis, the challenge was to use the Logistic Regression Model as is and also to use the RandomOverSampling module (oversampling the minority data which is the high risk loan status) to make calculations as to the best method to predict if a loan is high risk.  This analysis uses the following algorithms both with and without the RandomOverSampling module to determine which method I would use to make predictions if a borrower is creditworthy provided the data features and entries remain consistent into the future:
+- K-Nearest Neighbors Algorithm (kNN)
+- Naive Bayes Algorithm
+- Logistic Regression Algorithm
+- Support Vector Machines (SVM) Algorithm
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+The purpose for this analysis is to predict if a loan is high risk or "healthy". A "healthy" loan is one where we do not expect the borrower to default. A high risk loan is where the lender assumes risk in that the loan may not get paid. High risk loans tend to have a higher interest rate (to help recoupe costs in the event of a default). The lender depends on the borrower's financial capacity and trust that the loan will be repaid.
+
+The financial information used was a dataset that contained the amount of the loan, the interest rate, borrower's income, debt to income ratio, number of accounts open at the time the loan was made, negative remarks on the borrower's credit history, total debt from their credit history at the time the loan was made, and the loan status (0 is a "healthy" loan and 1 is a high risk loan). We are using various algorithms to make predictions for the likelihood that a loan will be high risk.
+
+The variables used in the prediction is the dependant variable (y) loan status and the independant variables (x) are the loan size, interest rate, borrower's income, borrower's debt to income ratio, number of accounts open, negative remarks on their credit history, and total debt at time of loan.
+
+In the machine learning process we read in the dataset from a csv file and split it into training and test data. We defined the x and y values and scaled those values to prevent skewed calculations. We then created the models listed above for both the original dataset and a random oversampled dataset. This was the training phase to make predictions. Finally, we evaluate the model's performance by creating reports and analyzing the results.
+
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+* K-Nearest Neighbors (kNN) Model 
+  - Parameters: n_neighbors = 1, no oversampling
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+    ![]()
 
 
+* K-Nearest Neighbors (kNN) Model 
+  - Parameters: n_neighbors = 1, with oversampling
 
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+    ![]()
+
+
+* K-Nearest Neighbors (kNN) Model 
+  - Parameters: n_neighbors = 5, no oversampling
+
+    ![]()
+
+
+* K-Nearest Neighbors (kNN) Model 
+  - Parameters: n_neighbors = 5, with oversampling
+
+    ![]()
+
+
+*  Naive Bayes Model 
+  - Parameters: no oversampling
+
+    ![]()
+
+
+*  Naive Bayes Model 
+  - Parameters: with oversampling
+
+    ![]()
+
+
+*  Logistic Regression Model 
+  - Parameters: no oversampling
+
+    ![]()
+
+
+*  Logistic Regression Model 
+  - Parameters: with oversampling
+
+    ![]()
+
+
+*  Support Vector Machines (SVM) Model 
+  - Parameters: no oversampling
+
+    ![]()
+
+
+*  Support Vector Machines (SVM) Model 
+  - Parameters: with oversampling
+
+    ![]()
+
+
 
 ## Summary
 
