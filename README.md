@@ -1,7 +1,7 @@
 # credit-risk-classification
 Module 20 Challenge - DUE May 17, 2023
 
-    ![]()
+    ![](https://github.com/mugsiemx/credit-risk-classification/blob/main/Credit_Risk/Images/pexels-anna-nekrashevich-6802045.jpg)
 
 Business losses are common and each business needs to have tools to help predict what the customers need and want yet protect their own resources in the process. Today's assignment utlizes a dataset about loans which are healthy or high risk.  Our goal is to find a model to make these predictions.
 
